@@ -1,0 +1,25 @@
+CGRA151 Project Plan
+
+Student name: Matthew Corfiatis
+Student ID: 300447277
+Name of game/artwork: Coiner
+
+Vision
+1. Game concept: A game where you play as a vehicle that can move around a fixed map. The aim of the game is to collect coins that appear on the screen, but the game gets harder as you collect more coins. Each level will require you to get more coins than the last. To make the game harder, when you get a coin, a clone of your spaceship will spawn and follow your movements, if you hit the clone, you lose. There will also be other obstacles like walls/blocks and maybe clones with random movements. I will add powerups and powerdowns that do lots of different things.
+This game is based on/copied from a mobile game called "15 coins"
+
+2. Game play: The vehicle will always move forward and the player cannot stop this, they can only use the left and right arrows on the keyboard to steer the vehicle. There will be a progress bar of sorts that fills up as you collect coins, once the bar fills, the next level will start.
+
+3. Visual design: I plan to use minimalist style graphics with only a few colours on the screen at one time. This is mainly for two reasons, it's easy and will allow me to spend most of my time on the actual gameplay and mechanics, and because I like the minimalist style.
+
+Timetable
+1. A core working program (done by two weeks before deadline): 
+The core program will involve a moveable vehicle, coins that can be collected and enemy clones that will cause the player to lose if they collide with them.
+
+2. A reasonable submission (done by one week before deadline): 
+Everything that core has + powerups of some sort that allow the player to do extra things like freeze time and kill the clones temporarily.
+
+3. A well-polished submission (done by project deadline): 
+The game will be considered polished when it works reliably and is intuative. If I have time I could add more obstacles such as walls that the player cannot pass through
+
+

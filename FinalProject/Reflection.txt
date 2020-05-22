@@ -1,0 +1,21 @@
+CGRA151 Project Report
+
+Student name: Matthew Corfiatis
+Student ID: 300447277
+Name of game/artwork: Coiner
+
+Vision
+My vision was to have a vehicle that the player could steer, the aim was to collect coins that appear on the map. The game got harder as you progressed and collected more coins. Clones would spawn and follow the movements you had made and if you hit one you would lose.
+
+Achievement
+I was able to get a vehicle that the player steered. I implemented clones that followed the movements the player makes and I added coins that could be collected. Once all the coins are collected, the player progresses to the next level. If the player collides with a clone, the game resets back to level 1.
+
+Technical Challenges
+I had to create a system that could store the movements of the player and allow the clones to duplicate them. There were a few different ways I could have structured the data, initially I was going to save the path that the player moved over as an array of co-ordinates but decided that it would be inefficient. I used a list of a custom class that stored the action type e.g. left, right and the time that it was pressed in milliseconds relative to the start of the level. The clones were then able to copy this list when they spawned and execute actions once the time had passed.
+
+Another technical challenge I had was animating the coins to bounce and spin. Since I was using a 2D processing canvas, I could not use the rotateY() method. I used the sine function to control the scale in the x axis for the coin, giving the illusion that it is spinning. I used an if statement that checked the angle, if it was greater than PI it would display a $ symbol otherwise a 1, making it seem like the coin had two sides.
+
+Reflection
+I think the outcome matched the vision pretty well, though I would have liked to add more features such as different kinds of obstacles or powerups/powerdowns of some sort. I would have been able to get more done if I had anticipated how much tweaking the clones would require to make the game playable and not too easy/hard.
+
+Some parts of the assignment were easier than expected, I thought it would be hard to get a colour scheme that looked acceptable, but I was able to take inspiration from other games.
